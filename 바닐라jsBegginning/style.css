@@ -4,13 +4,33 @@
 h1 {
   text-align: center;
 }
+.input-style {
+  margin-left: 5em;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  width: 300px;
+  font-size: 14px;
+}
 .time {
   text-align: center;
 }
 .background-image {
   position: relative;
   background-image: src= "js/background.js";
-  max-width: 300px;
+  max-width: 75%;
   height: 0;
   margin: 0 auto;
+}
+#todo-list {
+}
+.content-section {
+  background: linear-gradient(#c8babaa6, #cdddd6c5);
+  padding-top: 20%;
+}
+#quote {
+  text-align: center;
+}
+#weather {
+  text-align: center;
 }
