@@ -23,6 +23,7 @@ h1 {
   margin: 0 auto;
 }
 #todo-list {
+  text-align: center;
 }
 .content-section {
   background: linear-gradient(#c8babaa6, #cdddd6c5);
