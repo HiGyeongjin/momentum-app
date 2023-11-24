@@ -2,7 +2,7 @@ const quotes = [
   {
     quote:
       "You do not write your life with words, you write it with actions. What you think is not important. It is only important what you do.",
-    author: "unknown",
+    author: "Unknown",
   },
   {
     quote:
@@ -25,11 +25,11 @@ const quotes = [
   },
   {
     quote: "To be the best, you must be able to handle the worst.",
-    author: "unknown",
+    author: "Unknown",
   },
   {
     quote: "Don't complain. Just do it.",
-    author: "unknown",
+    author: "Unknown",
   },
   {
     quote: "The discipline of desire is the background of character.",

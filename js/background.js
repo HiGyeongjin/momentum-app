@@ -18,9 +18,6 @@ bgImage.src = `img/${chosenImage}`;
 // document.body.appendChild(bgImage);
 
 document.body.style.backgroundImage = `url(${bgImage.src})`;
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundRepeat = "no-repeat";
 
 //add class name if i want
 // document.body.classList.add("custom-background-class");
