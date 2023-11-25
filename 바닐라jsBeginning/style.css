@@ -15,10 +15,9 @@ body {
 }
 
 .background-container {
-  background-image: src= "js/background.js";
-  background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
 }
 
 .content-section {
