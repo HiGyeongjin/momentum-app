@@ -24,10 +24,11 @@ body {
 .content-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 70%;
   position: relative;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
+  height: 96vh;
+  background-color: rgba(209, 179, 179, 0.3);
   border-radius: 13px;
   margin: 0 auto;
 }
@@ -37,8 +38,14 @@ body {
 }
 
 h1 {
+  background-color: #c6c9e772;
+  margin: 1rem;
   text-align: center;
-  color: pink;
+  padding: 1rem;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 2px 1px rgb(230, 200, 200);
+  cursor: default;
 }
 
 /* TODO INPUT FORM */
@@ -58,30 +65,47 @@ h1 {
 }
 
 /* LOGIN */
-.login-form {
+#login-form {
   color: aliceblue;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
+
 .login-button {
   background-color: #f3dbdb;
   border: none;
   border-radius: 30px;
   height: 40px;
-  color: #c6c9e7;
-  width: 70px;
+  color: grey;
+  font-size: 0.9rem;
+  width: 5rem;
+  cursor: pointer;
 }
 
 /* TIME  */
 .time {
   text-align: center;
   color: palevioletred;
+  cursor: default;
+  font-size: 2.5rem;
+  margin-top: 5rem;
 }
 
 /* TODO LIST  */
 #todo-list {
   text-align: center;
   color: azure;
-  margin: 1rem;
-  height: 18rem;
+  margin: 0.5rem;
+  font-size: 1.4rem;
+  height: 28vh;
+  list-style: none;
+}
+
+li:hover {
+  opacity: 0.5;
+  transition: all 200ms ease-in-out;
+  cursor: default;
 }
 
 li button {
@@ -92,20 +116,23 @@ li button {
   background-color: transparent;
 }
 
+/* FOOTER */
+
 .footer {
   display: flex;
   flex-direction: column;
   background-color: #c6c9e772;
   color: rgb(22, 10, 10);
-  margin: 0 1rem;
   height: auto;
   border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* QUOTE */
 #quote {
   display: flex;
-  text-align: center;
+  margin: 0 0.1rem;
 }
 
 #quote span:first-child {
@@ -123,4 +150,5 @@ li button {
   justify-content: center;
   text-align: center;
   margin: 0.5rem;
+  color: rgb(83, 83, 83);
 }
